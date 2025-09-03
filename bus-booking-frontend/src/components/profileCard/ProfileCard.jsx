@@ -10,7 +10,7 @@ function ProfileCard({id, onClose}) {
     {/* {${isOpen ? 'open' : ''}} */}
       <div className="profile-content">
         <p>First Name: </p>
-        <p>Last Name: Doe</p>
+        <p>Last Name: </p>
         <p>Age: 30</p>
         <Link  to={`/bookings/${id}`} className='bookings-button'>Bookings</Link>
         <Link to="/change-password" className='link-change-password' onClick={onClose}>Change Password</Link>

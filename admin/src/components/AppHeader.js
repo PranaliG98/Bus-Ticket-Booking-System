@@ -28,7 +28,7 @@ const AppHeader = () => {
           <CIcon icon={cilMenu} size="lg" />
         </CHeaderToggler>
         <CHeaderBrand className="mx-auto d-md-none" to="/" style={{ color: '#333' }}>
-          Spark Buses ADMIN
+          TREVO Buses ADMIN
         </CHeaderBrand>
         <CHeaderNav className="d-none d-md-flex me-auto">
           <CNavItem>

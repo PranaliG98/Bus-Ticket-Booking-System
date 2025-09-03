@@ -48,11 +48,6 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
 		<!-- Spring Boot Starter Test for JUnit, Mockito, and Spring Test support -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -135,7 +130,11 @@
 			<artifactId>razorpay-java</artifactId>
 			<version>1.4.5</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version> <!-- use latest stable -->
+		</dependency>
 
 
 	</dependencies>

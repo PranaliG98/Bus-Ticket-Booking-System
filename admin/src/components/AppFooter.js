@@ -7,7 +7,7 @@ const AppFooter = () => {
     <CFooter className="app-footer" style={{ backgroundColor: '#f5f5f5', color: '#333' }}>
       <div className="footer-left">
         <a href="#" target="_blank" rel="noopener noreferrer" style={{ color: '#333' }}>
-          SPARK BUS
+          TREVO BUS
         </a>
         <span className="footer-divider" style={{ color: '#333' }}> | </span>
         <span style={{ color: '#333' }}>&copy; {new Date().getFullYear()}</span>
@@ -21,7 +21,7 @@ const AppFooter = () => {
           className="app-link"
           style={{ color: '#333' }}
         >
-          Spark Bus Booking
+          TREVO Bus Booking
         </a>
       </div>
     </CFooter>

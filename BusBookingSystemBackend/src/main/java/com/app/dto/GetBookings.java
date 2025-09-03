@@ -32,6 +32,9 @@ public class GetBookings {
 	private long userId;
 	private String userName;
 	private LocalDateTime bookingDateTime;
-	private int noOfSeats; 
+	private int noOfSeats;
+
+
+
 
 }

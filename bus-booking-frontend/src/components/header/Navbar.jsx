@@ -62,7 +62,7 @@ function Navbar() {
           <div className="logo">
             <IoMdBus className='logo-bus'/>
           </div>
-          <h4>SPARK BUS</h4>
+          <h4> BUS</h4>
           <Link to="/" className="dashboard-button">Dashboard</Link>
           <Link to="/aboutus" className="team-button">Team</Link>
           {jwtToken &&  (

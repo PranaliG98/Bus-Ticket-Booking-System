@@ -23,7 +23,7 @@ const AppSidebar = () => {
       className="sidebar-hover-effect" // Add a custom class for hover effect
     >
       <CSidebarBrand className="d-none d-md-flex" to="/">
-        <>Spark ADMIN</>
+        <>TREVO ADMIN</>
       </CSidebarBrand>
       <CSidebarNav>
         <SimpleBar>
